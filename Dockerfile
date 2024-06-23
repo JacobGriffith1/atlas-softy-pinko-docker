@@ -3,7 +3,7 @@
 # Create a Dockerfile that:
 
 # Is based on the latest ubuntu
-FROM ubuntu:latest
+FROM ubuntu:22.04
 
 # Update APT using apt-get update
 RUN apt-get update
